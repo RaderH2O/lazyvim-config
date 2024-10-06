@@ -1,6 +1,6 @@
 return {
   { "catppuccin/nvim", as = "catppuccin", priority = 1000, opts = {
-    flavour = "frappe",
+    flavour = "mocha",
   } },
   {
     "vyfor/cord.nvim",
