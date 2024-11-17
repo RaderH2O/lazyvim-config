@@ -3,3 +3,5 @@
 -- Add any additional keymaps here
 
 vim.keymap.set("i", "jk", "<Esc>")
+vim.keymap.set("t", "jk", "<C-\\><C-n>")
+vim.keymap.set("n", "<leader>t", "<Cmd>ToggleTerm<CR>", { desc = "Open the terminal" })
