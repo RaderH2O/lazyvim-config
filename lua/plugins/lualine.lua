@@ -27,7 +27,7 @@ return {
         disabled_filetypes = { statusline = { "dashboard", "alpha", "ministarter" } },
         section_separators = { left = "", right = "" },
         -- component_separators = { left = "|", right = "|" },
-        component_separators = "",
+        component_separators = { left = ")", right = "(" },
       },
       sections = {
         lualine_a = { "mode" },

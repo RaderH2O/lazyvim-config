@@ -2,19 +2,13 @@ return {
   {
     "catppuccin/nvim",
     as = "catppuccin",
-    -- priority = 1000,
+    priority = 1000,
     event = "VeryLazy",
     opts = {
-      flavour = "mocha",
-      transparent_background = true,
+      flavour = "frappe",
+      -- transparent_background = false,
     },
   },
-  -- {
-  --   "vyfor/cord.nvim",
-  --   build = "./build || .\\build",
-  --   event = "VeryLazy",
-  --   opts = {}, -- calls require('cord').setup()
-  -- },
   { "rose-pine/neovim", name = "rose-pine" },
   {
     "marko-cerovac/material.nvim",
@@ -38,11 +32,13 @@ return {
     },
     event = "VeryLazy",
   },
-  {
-    "akinsho/toggleterm.nvim",
-    version = "*",
-    opts = {},
-  },
+  -- {
+  --   "akinsho/toggleterm.nvim",
+  --   version = "*",
+  --   opts = {
+  --     size = 7,
+  --   },
+  -- },
   {
     "tiagovla/tokyodark.nvim",
     opts = {
