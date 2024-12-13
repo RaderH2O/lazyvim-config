@@ -49,4 +49,10 @@ return {
       -- vim.cmd([[colorscheme tokyodark]])
     end,
   },
+  {
+    "loctvl842/monokai-pro.nvim",
+    opts = {
+      filter = "pro",
+    },
+  },
 }
